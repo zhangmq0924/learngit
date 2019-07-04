@@ -1,7 +1,19 @@
+
 一、git 初始化
 git config --global user.name"your name" #设置用户名
 git config --global user.email"your email"#设置密码
 git init #把当前目录设置成仓库
-二、添加文件到仓库
+
+二、本地仓库
+
+1、添加文件到仓库
 git add <file> #将单个文件或多个文件添加到暂存区
 git commit -m <message>#将暂存区文件添加到仓库
+git status #查看工作区状态，文件是否被修改过
+git diff <file> #查看文件修改内容
+
+2、版本回退
+git reset --hard HEAD^ #回退上个版本（HEAD^^回退上上个版本，HEAD~100往上回退100个版本）
+git reset --hard commit_id  #根据ID回退版本
+git log #查看提交历史
+git relog #查看命令历史
