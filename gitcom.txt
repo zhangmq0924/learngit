@@ -1,0 +1,7 @@
+一、git 初始化
+git config --global user.name"your name" #设置用户名
+git config --global user.email"your email"#设置密码
+git init #把当前目录设置成仓库
+
+
+
