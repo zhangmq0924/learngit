@@ -1,7 +1,7 @@
-һ��git ��ʼ��
-git config --global user.name"your name" #�����û���
-git config --global user.email"your email"#��������
-git init #�ѵ�ǰĿ¼���óɲֿ�
-
-
-
+一、git 初始化
+git config --global user.name"your name" #设置用户名
+git config --global user.email"your email"#设置密码
+git init #把当前目录设置成仓库
+二、添加文件到仓库
+git add <file> #将单个文件或多个文件添加到暂存区
+git commit -m <message>#将暂存区文件添加到仓库
