@@ -57,6 +57,9 @@
 		git checkout -b <name> #创建+切换分支
 		git merge <name> #合并某分支到当前分支
 		git brange -d <name> #删除分支
+	2、解决冲突
+		git log --graph #查看分支合并图
+	
 	
 		
 	
