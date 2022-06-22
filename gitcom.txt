@@ -53,10 +53,11 @@
 	1、创建与合并分支
 		git branch #查看分支
 		git branch <name> #创建分支
-		git checkout <name> #切换分支
-		git checkout -b <name> #创建+切换分支
+		git checkout <name> 或者git switch <name> #切换分支
+		git checkout -b <name> 或者 git switch -c <name> #创建+切换分支
 		git merge <name> #合并某分支到当前分支
 		git brange -d <name> #删除分支
+	
 	2、解决冲突
 		git log --graph #查看分支合并图
 	3、分支管理策略
